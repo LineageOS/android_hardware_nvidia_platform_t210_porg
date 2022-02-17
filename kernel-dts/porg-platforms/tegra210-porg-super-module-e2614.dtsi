@@ -276,13 +276,13 @@
 						"b IN",			"b Mic";
 				};
 			};
-			overrides@10 {
+			/*overrides@10 {
 				target = <&i2s_dai_link1>;
 				_overlay_ {
 					link-name = "rt565x-playback";
 					codec-dai-name = "rt5659-aif1";
 				};
-			};
+			};*/
 			overrides@11 {
                                 target = <&e2614_cm32180>;
                                 _overlay_ {
