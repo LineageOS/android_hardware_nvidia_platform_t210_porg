@@ -45,7 +45,7 @@
 		};
 
 		hdr40_vdd_3v3: p3448_vdd_3v3_sys: regulator@2 {
-			compatible = "regulator-fixed-sync";
+			compatible = "regulator-fixed-sync", "regulator-fixed";
 			reg = <2>;
 			regulator-name = "vdd-3v3-sys";
 			regulator-min-microvolt = <3300000>;
@@ -58,7 +58,7 @@
 		};
 
 		p3448_vdd_3v3_sd: regulator@3 {
-			compatible = "regulator-fixed-sync";
+			compatible = "regulator-fixed-sync", "regulator-fixed";
 			reg = <3>;
 			regulator-name = "vdd-3v3-sd";
 			regulator-min-microvolt = <3300000>;
@@ -70,7 +70,7 @@
 		};
 
 		p3448_avdd_io_edp: regulator@4 {
-			compatible = "regulator-fixed-sync";
+			compatible = "regulator-fixed-sync", "regulator-fixed";
 			reg = <4>;
 			regulator-name = "avdd-io-edp-1v05";
 			regulator-min-microvolt = <1050000>;
@@ -117,7 +117,7 @@
 		};
 
 		p3449_vdd_usb_hub_en: regulator@9 {
-			compatible = "regulator-fixed-sync";
+			compatible = "regulator-fixed-sync", "regulator-fixed";
 			reg = <9>;
 			regulator-name = "vdd-usb-hub-en";
 			regulator-min-microvolt = <5000000>;
