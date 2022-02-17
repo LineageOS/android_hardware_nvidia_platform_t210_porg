@@ -17,13 +17,13 @@
 		fragement@0 {
 			ids = ">=3448-0000-100", ">=3448-0002-100";
 			override@0 {
-				target = <&ina3221x>;
+				target = <&ina3221>;
 				_overlay_ {
 					channel@0 {
-						ti,rail-name = "POM_5V_IN";
+						label = "POM_5V_IN";
 					};
 					channel@1 {
-						ti,rail-name = "POM_5V_GPU";
+						label = "POM_5V_GPU";
 					};
 				};
 			};
