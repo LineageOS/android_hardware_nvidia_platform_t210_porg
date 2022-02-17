@@ -539,6 +539,17 @@
 				status = "okay";
 				mode = "otg";
 				nvidia,usb3-port-fake = <3>;
+
+				usb-role-switch;
+				connector {
+					compatible = "usb-b-connector",
+						     "gpio-usb-b-connector";
+					label = "micro-USB";
+					type = "micro";
+					vbus-gpio = <&gpio TEGRA_GPIO(Z, 0)
+						     GPIO_ACTIVE_LOW>;
+					id-gpio = <&max77620 0 0>;
+				};
 			};
 			usb2-1 {
 				status = "okay";
