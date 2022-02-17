@@ -203,7 +203,7 @@
 		};
 	};
 
-	host1x {
+	host1x@50000000 {
 		i2c@546c0000 {
 			bus-pullup-supply = <&battery_reg>;
 			avdd_dsi_csi-supply = <&max77620_sd3>;
@@ -214,7 +214,7 @@
 		vpp_fuse-supply = <&max77620_sd3>;
 	};
 
-	host1x {
+	host1x@50000000 {
 		/* tegradc.0 */
 		dc@54200000 {
 			avdd_hdmi-supply = <&max77620_ldo8>;

@@ -20,7 +20,7 @@
 #define CAM1_PWDN		TEGRA_GPIO(S, 7)
 
 / {
-    host1x {
+    host1x@50000000 {
 		i2c@546c0000 {
 			rbpcv2_imx219_a@10 {
 				reset-gpios = <&gpio CAM1_PWDN GPIO_ACTIVE_HIGH>;

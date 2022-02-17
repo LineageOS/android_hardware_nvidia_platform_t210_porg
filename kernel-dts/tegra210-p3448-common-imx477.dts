@@ -37,7 +37,7 @@
 			status = "okay";
 			pcl_id = "v4l2_sensor";
 			devname = "imx477 6-001a";
-			proc-device-tree = "/proc/device-tree/host1x/i2c@546c0000/rbpcv3_imx477_a@1a";
+			proc-device-tree = "/proc/device-tree/host1x@50000000/i2c@546c0000/rbpcv3_imx477_a@1a";
 		};
 	};
 	/* Enable VI ports */

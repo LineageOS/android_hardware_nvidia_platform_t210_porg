@@ -75,7 +75,7 @@
 		status = "okay";
 	};
 
-	host1x {
+	host1x@50000000 {
 		/* Camera unit clocks */
 		assigned-clocks = <&tegra_car TEGRA210_CLK_EXTERN3>,
 						<&tegra_car TEGRA210_CLK_CILE>,
