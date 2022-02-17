@@ -580,7 +580,11 @@
 
 	xudc@700d0000 {
 		phys =  <&{/xusb_padctl@7009f000/pads/usb2/lanes/usb2-0}>;
+#if TEGRA_XUSB_DT_VERSION <= DT_VERSION_2
 		phy-names = "usb2";
+#else
+		phy-names = "usb2-0";
+#endif
 		charger-detector = <&tegra_usb_cd>;
 		#extcon-cells = <1>;
 		status = "okay";
