@@ -36,7 +36,7 @@
 			controller-data {
 				nvidia,x1-len-limit = <16>;
 				nvidia,x4-bus-speed = <104000000>;
-				nvidia,x4-dymmy-cycle = <8>;
+				nvidia,x4-dummy-cycle = <8>;
 			};
 		};
 	};

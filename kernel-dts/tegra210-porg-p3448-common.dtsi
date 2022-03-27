@@ -257,7 +257,7 @@
 			controller-data {
 				nvidia,x1-len-limit = <4194304>;
 				nvidia,x1-bus-speed = <104000000>;
-				nvidia,x1-dymmy-cycle = <8>;
+				nvidia,x1-dummy-cycle = <8>;
 				nvidia,ctrl-bus-clk-ratio = /bits/ 8 <0x01>;
 			};
 		};
