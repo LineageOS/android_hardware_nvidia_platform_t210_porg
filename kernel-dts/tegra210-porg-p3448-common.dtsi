@@ -382,8 +382,8 @@
 
 	tegra_sound: sound {
 		status = "okay";
-		compatible = "nvidia,tegra-audio-t210ref-mobile-rt565x";
-		nvidia-audio-card,name = "tegra-snd-t210ref-mobile-rt565x";
+		compatible = "nvidia,tegra210-ape";
+		nvidia-audio-card,name = "NVIDIA Jetson Nano APE";
 
 		clocks = <&tegra_car TEGRA210_CLK_PLL_A>,
 			 <&tegra_car TEGRA210_CLK_PLL_A_OUT0>,
