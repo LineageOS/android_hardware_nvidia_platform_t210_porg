@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31d5063f_e0437f12",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2022-04-26T19:44:25Z",
+      "side": 1,
+      "message": "Verified on porg, audio works on boot and after waking from screen off sleep.",
+      "revId": "3d72c0e3ef0eeb467f46489179b19ca8ebc01975",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
