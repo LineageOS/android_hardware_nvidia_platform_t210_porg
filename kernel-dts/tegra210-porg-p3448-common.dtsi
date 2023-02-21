@@ -57,6 +57,7 @@
 		nvidia,tegra-always-on-personality;
 		no-tnid-sn;
 		bootargs = "earlycon=uart8250,mmio32,0x70006000";
+		fastboot-instructions = "Press X/Y to move highlight\nPress Button A to select\nConnect SHIELD Controller using USB cable\n";
 	};
 
 	cpus {
